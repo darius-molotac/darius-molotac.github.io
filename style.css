@@ -161,7 +161,15 @@ footer {
   background-color: #3498db;
 }
 
+.float-left {
+  float:left;
+  margin-right: 10px;
+}
 
+.float-right {
+  float:right;
+  margin-left: 10px;
+}
 @media (max-width: 600px) {
   nav ul {
     flex-direction: column;
